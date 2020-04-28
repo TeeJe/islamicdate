@@ -36,12 +36,11 @@ To get a specific date in parts:
 	Go to the MagicMirror/config directory and edit the config.js file.
 	Add the module to your modules array in your config.js.
 
-	```
 	{
 					module: "islamicdate",
 					position: "top_bar"
 	},
-	```
+	
 
 
 ## Notes
