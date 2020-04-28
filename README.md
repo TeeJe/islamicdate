@@ -33,6 +33,7 @@ To get a specific date in parts:
 	> IC.getIslamicDateParts(new Date("2012/12/25"));
 
 	## Configuration
+	
 	Go to the MagicMirror/config directory and edit the config.js file.
 	Add the module to your modules array in your config.js.
 	
@@ -43,6 +44,16 @@ To get a specific date in parts:
 	},
 	
 ````
+	To give a Masjid name in parts of islamicdate.js:
+
+````javascript
+
+    defaults: {
+    masjid: "Name of Masjid"
+    },
+	
+````
+
 
 ## Notes
 
